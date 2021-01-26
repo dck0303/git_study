@@ -24,4 +24,6 @@
 		git reset --hard <commit id> : 해당 commit 지점으로 파일을 되돌린다.
 			reset 을 하면 내열을 되돌리기 때문에, log 명령어로 commit id 를 볼 수 없다.
 		git reflog : 모든 내역을 확인하는 reflog 를 사용해서 모든 commit id 확인 가능
+	6. git revert
+		git revert <commit id> : 파일을 해당 commit 지점으로 되돌리고 revert log 를 넘긴다.
 		
